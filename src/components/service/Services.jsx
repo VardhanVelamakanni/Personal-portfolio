@@ -26,7 +26,7 @@ const Services = () => {
         })}
       </div>
       <div className="mywork-showmore">
-        <p>Show More</p>
+        <p>Read More</p>
         <a href="https://github.com/VardhanVelamakanni?tab=repositories">
 
           <img src={arrow_icon} alt="" />
