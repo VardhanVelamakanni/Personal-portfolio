@@ -18,7 +18,7 @@ const Services = () => {
             <p>{service.s_desc}</p>
             <div className="services-readmore">
               <a className="a-link" href="https://github.com/VardhanVelamakanni?tab=repositories">
-                <p>Read more</p>
+                <p>show more</p>
                 <img src={arrow_icon} alt="" />
               </a>
             </div>
