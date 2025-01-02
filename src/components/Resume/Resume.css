@@ -1,0 +1,54 @@
+.Resume{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    margin: 80px 150px;
+
+}
+.Resume-title{
+    position: relative;
+    
+}
+.Resume-title h1{
+    padding: 0px 30px;
+    font-size: 40px;
+    font-weight: 500;
+    
+}
+.resume-download{
+    display: flex;
+    gap: 15px;
+    border-radius: 50px;
+    border: 2px solid white;
+    padding: 30px 60px;
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 80px;
+    transition: 0.6s;
+    cursor: pointer;
+}
+.resume-download:hover{
+    gap: 30px;
+    transition: 0.6s;
+    
+}
+@media(max-width:768px) {
+    .Resume{
+        gap: 50px;
+        margin: 50px 70px;
+        align-items: start;
+
+    }
+    .Resume-title h1{
+        padding: 0;
+        font-size: 50px;
+        font-weight: 500;
+    }
+    .resume-download{
+        padding: 20px 50px;
+        border-radius: 40px;
+        
+    }
+}
