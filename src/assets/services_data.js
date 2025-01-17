@@ -1,8 +1,8 @@
 const Services_Data = [
     {
         s_no:"01",
-        s_name:"Netflix Clone",
-        s_desc:"Netflix Clone with proper Backend"
+        s_name:"ChatApp",
+        s_desc:"Chatapp with proper intialisation using Django"
     },
     {
         s_no:"02",
@@ -12,7 +12,7 @@ const Services_Data = [
     {
         s_no:"03",
         s_name:"E-commerce Website",
-        s_desc:"Rontend work using Html,Bootstrap,CSS"
+        s_desc:"Frontend work using Html,Bootstrap,CSS"
     },
     {
         s_no:"04",

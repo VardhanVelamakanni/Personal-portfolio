@@ -8,7 +8,7 @@ const Services = () => {
   return (
     <div id='projects' className="services">
       <div className="services-title">
-        <h1>Projects</h1>
+        <h1>My works</h1>
       </div>
       <div className="services-container">
         {Services_Data.map((service, index) => {
